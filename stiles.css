@@ -1,0 +1,105 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.header-btn {
+  background-color: #f9a825;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  background-color: #40bfff;
+  color: white;
+  padding: 60px 40px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero-left {
+  flex: 1;
+  padding-right: 40px;
+  min-width: 300px;
+}
+
+.hero-left h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-left p {
+  font-size: 16px;
+  color: #d6f3ff;
+  margin-bottom: 30px;
+}
+
+.cta-form {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 400px;
+}
+
+.cta-form input {
+  flex: 1;
+  border: none;
+  padding: 15px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.cta-form button {
+  background-color: #f9a825;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Right Image */
+.hero-right {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-right img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
